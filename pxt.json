@@ -1,0 +1,28 @@
+{
+    "name": "sumo_placa_dfr",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-sonar": "github:Microsoft/pxt-sonar#v0.0.5",
+        "motorbit": "github:tinkertanker/pxt-motorbit#v2.0.0",
+        "motor": "github:DFRobot/pxt-motor#2cdf17586556c5a532782aa436c516ae50f5f316"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.26",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
